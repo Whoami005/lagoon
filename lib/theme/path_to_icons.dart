@@ -7,4 +7,5 @@ class LagoonIcons {
   static const String comment = 'assets/icons/comment.svg';
   static const String arrowBlack = 'assets/icons/arrow_black.svg';
   static const String arrowTop = 'assets/icons/arrow_top.svg';
+  static const String unknownBig = 'assets/icons/unknown_big.svg';
 }

@@ -7,8 +7,8 @@ class Photos {
   String? path;
   String? format;
   String? size;
-  String? height;
-  String? width;
+  int? height;
+  int? width;
   String? thumbnail1;
   String? thumbnail2;
 

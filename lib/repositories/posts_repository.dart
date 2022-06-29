@@ -5,7 +5,7 @@ import 'package:lagoon/models/posts.dart';
 import 'package:lagoon/repositories/auth.dart';
 
 class PostsRepository {
-  Uri url = Uri.parse('http://31.41.155.125/posts/');
+  Uri url = Uri.parse('http://31.41.155.125/posts/recommend');
 
   Future fetchPosts() async {
     final token = await AuthRepository().logIn();

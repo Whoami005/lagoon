@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:lagoon/models/posts.dart';
 import 'package:lagoon/theme/colors.dart';
+import 'package:lagoon/theme/path_to_icons.dart';
 import 'package:lagoon/theme/text_style.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
@@ -25,9 +27,13 @@ class UserItem extends StatelessWidget {
         leading: SizedBox(
           width: 22,
           height: 22,
-          child: CircleAvatar(
-            backgroundImage: NetworkImage(posts.author!.avatar!.path!),
-          ),
+          child: posts.author!.avatar != null
+              ? CircleAvatar(
+                  backgroundImage: NetworkImage(posts.author!.avatar!.path!),
+                )
+              : CircleAvatar(
+                  child: SvgPicture.asset(LagoonIcons.unknownBig),
+                ),
         ),
         title: Text(
           "@${posts.author!.username!}",
