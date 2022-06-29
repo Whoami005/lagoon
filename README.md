@@ -1,16 +1,14 @@
-# lagoon
+# Lagoon
 
-A new Flutter project.
+The project is a social network.
 
-## Getting Started
+## This project used:
+ - flutter_svg
+ - http
+ - flutter_bloc
+ - timeago
+ - readmore
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Application Foto:
+![one](https://user-images.githubusercontent.com/46159852/176335125-d9f67256-10e7-453a-ad62-f23d658a3927.png)
+![two](https://user-images.githubusercontent.com/46159852/176335121-afd6bb84-cabf-4cae-a670-9a23b4ab9ad7.png)
